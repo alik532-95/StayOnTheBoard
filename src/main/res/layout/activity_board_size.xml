@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/bigPadding"
+    tools:context=".BoardSizeActivity">
+
+    <!--
+    <TextView
+        android:id="@+id/textViewBoardSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textViewBoardSize"
+        android:textSize="@dimen/middleText" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBarBoardSize"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <SeekBar
+        android:id="@+id/seekBarBoardSize"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:max="10"
+        android:progress="2" />
+        -->
+
+    <com.xw.repo.BubbleSeekBar
+        android:id="@+id/bubbleSeekBarBoardSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:bsb_auto_adjust_section_mark="true"
+        app:bsb_second_track_color="#ff0000"
+        app:bsb_section_count="8"
+        app:bsb_min="2"
+        app:bsb_max="10"
+        app:bsb_progress="4"
+        app:bsb_section_text_position="below_section_mark"
+        app:bsb_show_section_mark="true"
+        app:bsb_show_section_text="true"
+        app:bsb_show_thumb_text="true"
+        app:bsb_thumb_text_size="18sp"
+        app:bsb_touch_to_seek="true"/>
+
+    <!--
+    <TextView
+        android:id="@+id/textViewBoardSizeInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="@dimen/middleText"
+        />
+        -->
+
+    <Button
+        android:id="@+id/buttonBoardSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAvailable"
+        android:textSize="@dimen/middleText"
+        android:padding="@dimen/middlePadding"
+        android:text="Створити"
+        />
+
+</LinearLayout>

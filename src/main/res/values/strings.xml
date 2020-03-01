@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Залишитися на дошці</string>
+    <string name="version">v.0.0.0.3</string>
+    <string name="buttonPlay">Грати</string>
+    <string name="buttonSettings">налаштування</string>
+    <string name="buttonRules">правила</string>
+    <string name="buttonControl">Керування</string>
+    <string name="buttonFeedback">зворотній зв\'язок</string>
+    <string name="buttonExit">вийти</string>
+    <string name="toastNotAvailable">у розробці</string>
+    <string name="textRules">Ціль гри — якомога довше утримати Ферзя на квадратній дошці схожу на шахматну.\nЯкщо фігура впаде з дошки — гру закінчено.\nГра розвиває та тренує уяву - дошку потрібно уявити.\n\nНаприклад:\nУявіть дошку 4 на 4, вона висить перед вами як картина.\nУ лівому верхньому куті знаходиться Ферзь.\nСаме цю фігуру гравці пересувають по черзі, допоки один з гравців не перемістить Ферзя за межі дошки.</string>
+    <string name="textFeedback">Гру створив Алік Запольнов\nalik532.95@gmail.com\n+380937251208</string>
+    <string name="textViewBoardSize">Розмір дошки</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bigPadding">32sp</dimen>
+    <dimen name="middlePadding">16sp</dimen>
+    <dimen name="littlePadding">8sp</dimen>
+    <dimen name="bigText">64sp</dimen>
+    <dimen name="middleText">32sp</dimen>
+    <dimen name="littleText">16sp</dimen>
+</resources>

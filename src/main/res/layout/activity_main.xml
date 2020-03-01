@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="@dimen/littlePadding">
+
+                <Button
+                    android:id="@+id/buttonPlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorNotAvailable"
+                    android:textSize="@dimen/bigText"
+                    android:padding="@dimen/bigPadding"
+                    android:text="@string/buttonPlay"
+                    />
+
+                <Button
+                    android:id="@+id/buttonSettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorNotAvailable"
+                    android:textSize="@dimen/middleText"
+                    android:padding="@dimen/middlePadding"
+                    android:text="@string/buttonSettings"
+                    />
+
+                <Button
+                    android:id="@+id/buttonRules"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAvailable"
+                    android:textSize="@dimen/middleText"
+                    android:padding="@dimen/middlePadding"
+                    android:text="@string/buttonRules"
+                    />
+
+                <Button
+                    android:id="@+id/buttonFeedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAvailable"
+                    android:textSize="@dimen/middleText"
+                    android:padding="@dimen/middlePadding"
+                    android:text="@string/buttonFeedback"
+                    />
+
+                <Button
+                    android:id="@+id/buttonExit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAvailable"
+                    android:textSize="@dimen/middleText"
+                    android:padding="@dimen/middlePadding"
+                    android:text="@string/buttonExit"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:layout_gravity="bottom|end"
+            android:padding="@dimen/littlePadding"
+            android:textColor="@color/colorNotAvailable"
+            />
+    </GridLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
